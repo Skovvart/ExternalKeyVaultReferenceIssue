@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: external-key-vault-reference-issue
+services:  
+  app:
+    language: dotnet
+    project: ./ExternalKeyVaultReferenceIssue.AppHost/ExternalKeyVaultReferenceIssue.AppHost.csproj
+    host: containerapp
